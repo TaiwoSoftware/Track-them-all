@@ -42,7 +42,9 @@ const Header = () => {
               <Link href="/Jobs">
                 <List list="Jobs" />
               </Link>
+              <Link href='/contact'>
               <List list="Contact Us" />
+              </Link>
             </div>
           </ul>
         </nav>

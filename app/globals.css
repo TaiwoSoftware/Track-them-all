@@ -749,3 +749,28 @@ footer button {
   margin-top: 5rem;
 }
 
+.wholeContact{
+  background:#f8f8f8 ;
+}
+
+
+
+.faqSpan {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.contactForm input, textarea {
+  border-radius: .2rem;
+}
+
+.gathering {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 6rem;
+  
+}
+
+
