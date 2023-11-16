@@ -780,3 +780,21 @@ footer button {
 .router {
   text-decoration:underline;
 }
+
+@media (max-width:884px) {
+  .home {
+    left: 8rem;
+  }
+
+  input[type="search"] {
+    margin-left: 7.5rem;
+  }
+
+  .main-image {
+    left: 13.5rem;
+  }
+
+  .lister {
+    
+  }
+}
