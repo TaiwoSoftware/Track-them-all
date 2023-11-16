@@ -11,7 +11,7 @@ const Page = () => {
       <div className="gathering mt-28">
         <div className=" p-7 faqs">
           <h2 className=" font-bold mb-8 ">FAQs</h2>
-          <Faqs params="How do i create an account on (company Name)?" />
+          <Faqs params="How do i create an account on Seguidor?" />
           <Faqs params="How can i update my profile information?" />
 
           <Faqs params="What should i do if i forgot my password?" />

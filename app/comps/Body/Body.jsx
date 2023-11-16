@@ -16,7 +16,7 @@ const Body = () => {
         <div>
           <h2 className="p-7 text-3xl mt-7 ml-5 font-semibold">
             Unlock the Power of Modern HR with
-            <span className="block">(Name)</span>
+            <span className="block">SEGUIDOR</span>
             <span className="block mt-4 font-normal">
               <p className="headerText">
                 {" "}
