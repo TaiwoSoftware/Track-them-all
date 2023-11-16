@@ -41,6 +41,10 @@ header {
   padding: 1rem 3rem;
 }
 
+.addingHover:focus-visible {
+  text-decoration: underline;
+}
+
 .body {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -773,4 +777,6 @@ footer button {
   
 }
 
-
+.router {
+  text-decoration:underline;
+}

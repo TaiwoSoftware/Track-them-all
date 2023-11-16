@@ -42,8 +42,8 @@ const Header = () => {
               <Link href="/Jobs">
                 <List list="Jobs" />
               </Link>
-              <Link href='/contact'>
-              <List list="Contact Us" />
+              <Link href="/contact">
+                <List list="Contact Us" />
               </Link>
             </div>
           </ul>
@@ -56,7 +56,7 @@ const Header = () => {
           <button className="register">Sign Up</button>
         </Link>
       ) : (
-        <Link href='/Candidate'>
+        <Link href="/Candidate">
           <div className="user-details cursor-pointer">
             <Image
               src={user.photoURL}

@@ -1,9 +1,12 @@
 import { useEffect } from "react";
-import UserForm from "./UserForm";
+import profiler from "../images/profile.png";
+import Link from "next/link";
 const ProfileDetails = () => {
   return (
     
     useEffect(() => {
+
+        
         if (typeof localStorage !== 'undefined') {
             return <div className="form-container">
             <form className="form">
@@ -43,6 +46,20 @@ const ProfileDetails = () => {
               <input type="submit" value="Done" className="text-white bg-green-800" />
             </form>
           </div>
+        }
+
+        else {
+          <div className="userhandler">
+          <Link href="/SignUp">
+            <Image
+              src={profiler}
+              alt="no-user"
+              quality={100}
+              className="cursor-pointer mover"
+            />
+          </Link>
+          <p>Click the icon to add image</p>
+        </div>
         }
         
       }, [])
