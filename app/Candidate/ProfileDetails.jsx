@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import profiler from "../images/profile.png";
 import Link from "next/link";
+import Image from "next/image";
 const ProfileDetails = () => {
   return (
     
