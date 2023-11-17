@@ -30,7 +30,7 @@ const HeaderOne = () => {
           <Image
             src={Frame}
             alt="second-image"
-            className="absolute top-[54rem] right-[23rem]"
+            className=" seconder absolute top-[54rem] right-[23rem]"
           />
         </div>
       </div>

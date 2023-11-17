@@ -832,7 +832,35 @@ footer button {
     display: none;
   }
 
-  .spooterImag{
-    margin-left: 16rem;
+  .spooterImg{
+    margin-left: 6rem;
+    margin-bottom:5rem;
   }
+
+  .headerOne {
+    grid-template-columns: 100%;
+  }
+
+  .imgOne img {
+    width: 100%;
+  }
+  .seconder {
+    display: none;
+  }
+
+  .secondDetails {
+    grid-column: 100%;
+    grid-template-columns: 100%;
+  }
+
+  footer {
+    height: 40vh;
+  }
+
+  footer input {
+    margin: 0;
+    width: 80%;
+  }
+
+
 }
