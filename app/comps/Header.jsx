@@ -73,7 +73,6 @@ const Header = () => {
           </div>
         </Link>
       )}
-      {/**/}
     </header>
   );
 };

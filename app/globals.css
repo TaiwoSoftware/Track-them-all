@@ -795,6 +795,44 @@ footer button {
   }
 
   .lister {
-    
+    left: 30rem;
+  }
+
+  .user-details {
+    width: 10%;
+  }
+
+  .userEmail{
+    display: none;
+  }
+
+  .userName {
+    font-size: .5rem;
+  }
+
+  .body{
+    grid-template-columns: 100%;
+  }
+
+  .working {
+    text-align: center;
+  }
+
+  .getStarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .spooter{
+    display: none;
+  }
+
+  .spooterImag{
+    margin-left: 16rem;
   }
 }
