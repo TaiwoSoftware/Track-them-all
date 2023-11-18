@@ -36,7 +36,7 @@ const Header = () => {
               </Link>
             </span>
             <div className="absolute lister">
-              <Link href="/about">
+              <Link href="/About">
                 <List list="About US" />
               </Link>
               <Link href="/Jobs">
