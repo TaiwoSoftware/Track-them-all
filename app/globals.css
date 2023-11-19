@@ -860,6 +860,11 @@ footer button {
   footer input {
     margin: 0;
     width: 80%;
+    margin-top:2rem;
+  }
+
+  .footerLogo {
+    margin-top: 6rem;
   }
 
 
