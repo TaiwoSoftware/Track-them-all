@@ -269,9 +269,6 @@ li:active {
   text-align: center;
 }
 
-.dealt{
-  width: 100%;
-}
 
 .link {
   color: var(--Buttion-color, #3637ee);
