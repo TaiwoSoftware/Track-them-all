@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Faqs = ({params}) => {
     return (
         <div>
-            <span>
+            <span className='faqSpan mb-3'>
                 <p className='contact-p'>{params}</p>
                 <Image src={rightArrow} alt='Right Arrow' />
             </span>

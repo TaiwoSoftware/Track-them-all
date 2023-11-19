@@ -14,9 +14,9 @@ const Body = () => {
     <main>
       <div className="body ">
         <div>
-          <h2 className="p-7 text-3xl mt-7 ml-5 font-semibold">
+          <h2 className=" working p-7 text-3xl mt-7 ml-5 font-semibold">
             Unlock the Power of Modern HR with
-            <span className="block">(Name)</span>
+            <span className="block">SEGUIDOR</span>
             <span className="block mt-4 font-normal">
               <p className="headerText">
                 {" "}
@@ -29,7 +29,7 @@ const Body = () => {
           <Link href="/SignUp">
             <button className="getStarted">Get Started</button>
           </Link>
-          <div className="flex mt-14 align-center describe">
+          <div className=" spooter flex mt-14 align-center describe">
             <small>Effortless Task Management</small>
             <Image src={ellipse} alt="dot" />
             <small>Real-time Collaboration</small>
@@ -39,7 +39,9 @@ const Body = () => {
             <small>Seamless Integration</small>
           </div>
         </div>
-        <Image src={main}  alt="main-image"/>
+        <Image src={main}  alt="main-image"
+          className="spooterImg"
+        />
       </div>
       <div className="mid-level  mb-15 p-8">
         <h2 className=" ml-4 text-2xl">Trusted By:</h2>

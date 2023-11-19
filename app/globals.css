@@ -41,6 +41,10 @@ header {
   padding: 1rem 3rem;
 }
 
+.addingHover:focus-visible {
+  text-decoration: underline;
+}
+
 .body {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -750,3 +754,119 @@ footer button {
   margin-top: 5rem;
 }
 
+.wholeContact{
+  background:#f8f8f8 ;
+}
+
+
+
+.faqSpan {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.contactForm input, textarea {
+  border-radius: .2rem;
+}
+
+.gathering {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 6rem;
+  
+}
+
+.router {
+  text-decoration:underline;
+}
+
+@media (max-width:884px) {
+  .home {
+    left: 8rem;
+  }
+
+  input[type="search"] {
+    margin-left: 7.5rem;
+  }
+
+  .main-image {
+    left: 13.5rem;
+  }
+
+  .lister {
+    left: 30rem;
+  }
+
+  .user-details {
+    width: 10%;
+  }
+
+  .userEmail{
+    display: none;
+  }
+
+  .userName {
+    font-size: .5rem;
+  }
+
+  .body{
+    grid-template-columns: 100%;
+  }
+
+  .working {
+    text-align: center;
+  }
+
+  .getStarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .spooter{
+    display: none;
+  }
+
+  .spooterImg{
+    margin-left: 6rem;
+    margin-bottom:5rem;
+  }
+
+  .headerOne {
+    grid-template-columns: 100%;
+  }
+
+  .imgOne img {
+    width: 100%;
+  }
+  .seconder {
+    display: none;
+  }
+
+  .secondDetails {
+    grid-column: 100%;
+    grid-template-columns: 100%;
+  }
+
+  footer {
+    height: 40vh;
+  }
+
+  footer input {
+    margin: 0;
+    width: 80%;
+    margin-top:2rem;
+  }
+
+  .footerLogo {
+    margin-top: 6rem;
+  }
+
+
+}
