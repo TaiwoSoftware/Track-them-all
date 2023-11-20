@@ -34,7 +34,8 @@ const nextConfig = {
             hostname: "placehold.co",
           },
         ],
+        domains: ['lh3.googleusercontent.com'],
       },
-}
+    }
 
 module.exports = nextConfig
