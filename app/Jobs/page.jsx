@@ -10,7 +10,7 @@ const Page = () => {
       <div className=" p-3 components">
         <ListOfJobs
           jobberTitle="Graphics Designer"
-          jobber="We need a graphics designer who knows how to use corel draw, Figma and web designs"
+          jobber="We need a graphics designer who knows how to use corel draw, Figma and web design"
           deadline="10/12/2023"
           handleClick={() =>{
             localStorage.setItem('title', jobberTitle)
